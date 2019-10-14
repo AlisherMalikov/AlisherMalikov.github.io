@@ -242,9 +242,8 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
   font-weight: 700;
   text-decoration: none;
-  color: #fff;
+  color: #333;
   padding-left: 30px;
-  text-shadow: 0 0 5px #000;
 }
 
 .fixed {
