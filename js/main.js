@@ -38,7 +38,6 @@ $(document).ready(function(){
             slidesToShow: 3,
             slidesToScroll: 3,
             arrows: false,
-            verticalSwiping: true,
             responsive: [
             {
                 breakpoint: 1024,
