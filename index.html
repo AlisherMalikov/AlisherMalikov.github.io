@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500i,700,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1:900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="first-display-wrapper">
+        <!-- header -->
+        <header class="header">
+            <!-- <div class="header-top">
+            <div class="language-menu">
+                <select name="language" id="language">
+                    <option value="">Rus</option>
+                    <option value="">Uzb</option>
+                    <option value="">Eng</option>
+                </select>
+            </div>
+        </div> -->
+            <div class="header_bottom" id="header_bottom">
+                <div class="logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></div>
+                <nav class="menu ">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">Наша продукция</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="hamburger hamburger--collapse" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+
+
+            </div>
+
+        </header>
+        <!-- header end -->
+
+        <!-- Slider -->
+
+        <section class="header_slider">
+            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push; autoplay: true; autoplay-interval: 2500">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <div class="slider-item" style="background-image: url(./img/slide1.jpg)">
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <h2 class="slider_title" uk-slideshow-parallax="x: 800,0,1000">здоровье ваших глаз в наших руках</h2>
+                            </div>
+                        </li>
+                        <li><div class="slider-item" style="background-image: url(./img/slide2.jpg)">
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <h2 class="slider_title" uk-slideshow-parallax="x: 800,0,2000">Стандарт качества GMP</h2>
+                            </div>
+                        </li>
+                        <li><div class="slider-item" style="background-image: url(./img/slide3.jpg)">
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <h2 class="slider_title" uk-slideshow-parallax="x: 800,0,1000">фармацевтическая деятельность</h2>
+                            </div>
+                        </li>
+                    </ul>
+                
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                
+                </div>
+        </section>
+    </div>
+    <!-- Slider  End -->
+
+    <!-- main   -->
+    <main>
+        <section id="about">
+            <div class="about">
+                <div class="uk-container">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">О компании</h1>
+                    <p><strong>ООО «Aseptica»</strong> - это динамично развивающаяся фармацевтическая компания,
+                        специализирующаяся на производстве и продаже офтальмологических препаратов, а также
+                        лекарственных и гигиенических средств для орошения полости рта и носа. Предприятие обладает
+                        современной материально-технической базой и соответствует требованиям ISO:9001. Производственные
+                        цеха построены по международным стандартам качества GMP с использованием технологии чистых
+                        помещений.</p>
+                    <p>Приоритетом <strong>ООО «Aseptica»</strong> является производство качественной продукции,
+                        отвечающей потребностям пациентов и медицинских специалистов в области офтальмологии и
+                        отоларингологии. Производственная линейка компании направлена на лечение и профилактику
+                        глаукомы, катаракты, и других заболеваний поверхности глаза, включая синдром «сухого глаза».
+                        Также имеется широкой спектр препаратов для местного лечения и профилактики инфекционных
+                        заболеваний, воспалительных процессов ротовой полости, глотки и носа.</p>
+                </div>
+            </div>
+        </section>
+        <section id="product">
+            <div class="uk-container">
+                <div class="slider-wrap">
+                    <div class="product-cards">
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+                            <!-- card -->
+                            <div class="product-card">
+                                <div class="card-img">
+                                    <img src="./img/card-img.jpg" alt="">
+                                </div><hr>
+                                <div class="card-info">
+                                    <h4>Таумед</h4>
+                                    <p>глазные капли 4% 10мл</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#">Подробнее <span uk-icon="icon: chevron-right"></span></a>
+                                    </div>
+                            </div>
+                            <!-- card end -->
+
+                    </div> 
+                </div>
+                       
+            </div>
+        </section>
+    </main>
+    <!-- main  end -->
+    <footer id="footer">
+        <div class="footer">
+            <div class="social_links">
+                    <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                    <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                    <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+            </div>
+            <div class="contact-info">
+                    
+
+                    <address>
+                        Узбекистан, г. Ташкент, <br> Яккасарайский район, МКАД 10
+                    </address>
+                    <div class="phone">
+                        <span>
+                            <!-- <a href="/" uk-icon="icon: receiver; ratio: 1.5"></a> -->
+                            <a href="tel:+998712530421">+998 71 253 04 21</a>
+                        </span>
+                        <span>
+                            <!-- <a href="/" uk-icon="icon: receiver; ratio: 1.5"></a> -->
+                            <a href="tel:+998909682840">+998 90 968 28 40</a>
+                        </span>
+                    </div>
+
+                    
+            </div>
+            <div class="copy"><span>© 2017 - 2019 ООО "ASEPTICA"</span></div>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"
+        integrity="sha256-v789mr/zBbgR53mfydCI78CSAF+9+nRqu+JRfs1UPg0=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"
+        integrity="sha256-l+AmZGiFz41J+gms80qC7faslJDberZDhjEsmDmQy8s=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
